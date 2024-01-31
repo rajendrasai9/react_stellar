@@ -1,6 +1,6 @@
 import video from './pexels.mp4';
 import {Link} from "react-router-dom" ;
-import  * as icons from "https://kit.fontawesome.com/13dcb74736.js";
+// import  * as icons from "https://kit.fontawesome.com/13dcb74736.js";
 
  export const Subscribe = ()=>{
     return <div className="subscribe">
