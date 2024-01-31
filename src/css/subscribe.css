@@ -1,0 +1,83 @@
+body{
+    background: rgb(233, 229, 229);
+    /* height: 0.9vh; */
+}
+.subscribe {
+    width : 100%;
+    position: relative;
+    height : 100%;
+}
+
+.video_container {
+    position: relative;
+    height: 100%;
+    width: 100%
+}
+
+/* .video{
+    /* object-fit: cover; 
+    height: 1vh;
+    width: 90%;
+} */
+
+.social-icon ul{
+    color: white;
+    position:absolute ;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.social-icon ul li{
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.social-icon ul li .fa-brands {
+    margin-top: 10px;
+    font-size: 35px;
+    line-height: 40px;
+    transition: .3s;
+    color: white;
+}
+
+.social-icon ul li a:hover{
+    color: black;
+}
+
+.social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    box-shadow: 0 4px 8px 0 white;
+    transition: .6s;
+}
+
+.social-icon ul li a:hover{
+    transform: translate(0,-20%);
+}
+
+.social-icon ul li:nth-child(1) a:hover{
+    background-color: rgb(23, 22, 22)
+}
+
+.social-icon ul li:nth-child(2) a:hover{
+    background-color: rgb(162, 35, 56);
+}
+
+.social-icon ul li:nth-child(3) a:hover{
+    background-color: rgb(53, 53, 218) ;
+}
+
+.social-icon ul li:nth-child(4) a:hover{
+    background-color:rgb(80, 77, 146);
+}
+
+.social-icon ul li:nth-child(5) a:hover{
+    background-color:rgb(50, 134, 50);
+}
