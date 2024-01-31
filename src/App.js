@@ -1,4 +1,4 @@
-import { Navbar } from "./components/navbar";
+import { Navbar } from "./components/navbar.js";
 import {Home} from "./pages/home.js"
 import {Explore} from "./pages/explore.js"
 import {Learn} from "./pages/learn.js"
